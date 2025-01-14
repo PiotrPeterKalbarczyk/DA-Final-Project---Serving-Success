@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Piotr Kalbarczyk">
+  <title>Serving Success</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/serif.css" id="theme">
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Serving Success</h1>
+  <p class="subtitle">A Data-Driven Approach to Identifying Prime
+Restaurant Locations in Berlin.</p>
+  <p class="author">Piotr Kalbarczyk</p>
+  <p class="date">23.09.2024 - 19.12.2024</p>
+</section>
+
+<section class="slide level1">
+
+<section data-transition="fade" data-background="assets/background_v2.jpg" data-background-size="cover" data-background-position="center">
+<h3 data-transition="fade-in" style="text-align: center; color: black; font-size: 40px;">
+BERLIN
+</h3>
+<h3 data-transition="fade-in" style="text-align: center; color: black; font-size: 50px;">
+IS
+</h3>
+<h3 data-transition="fade-in" style="text-align: center; color: black; font-size: 60px;">
+GROWING
+</h3>
+</section>
+<section data-transition="zoom-in fade-out">
+<img data-src="./assets/01AA_Population%20of%20Berlin.jpg" />
+</section>
+<section data-transition="fade">
+<img data-src="./assets/01BB_Population%20of%20Berlin.jpg" />
+</section data-transition="fade">
+<section data-transition="fade">
+<img data-src="./assets/01A_Population%20of%20Berlin.jpg" />
+</section>
+</section>
+<section class="slide level1">
+
+<h3 id="section"></h3>
+<p><img
+data-src="./assets/02B_Populationvs%20number%20of%20restaurants.jpg" /></p>
+</section>
+<section class="slide level1">
+
+<h3 id="section-1"></h3>
+<section>
+<img data-src="./assets/07_Restaurants%20popularity.jpg" />
+</section>
+</section>
+<section class="slide level1">
+
+<h3 id="section-2"></h3>
+<section>
+<p>What Are TOP 3 cuisines in Berlin?</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;">#1</th>
+<th style="text-align: center;">#2</th>
+<th style="text-align: center;">#3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td
+style="text-align: center;"><img class="fragment fade-in" src="assets/flag1.svg" alt="Flag 1" style="width: 150px; margin: 10px;"></td>
+<td
+style="text-align: center;"><img class="fragment fade-in" src="assets/flag2.svg" alt="Flag 2" style="width: 150px; margin: 10px;"></td>
+<td
+style="text-align: center;"><img class="fragment fade-in" src="assets/flag3.png" alt="Flag 3" style="width: 150px; margin: 10px;"></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section class="slide level1">
+
+<section>
+<img data-src="./assets/03A_Cuisines%20tree%20map.jpg" />
+</section>
+</section>
+<section class="slide level1">
+
+<h3 id="are-cuisines-where-migrants-are">Are Cuisines Where Migrants
+Are?</h3>
+</section>
+<section class="slide level1">
+
+<section>
+<img data-src="./assets/08_Maps.jpg" />
+</section>
+</section>
+<section id="section-3" class="slide level1">
+<h1></h1>
+<section data-background="assets/woman.jpg" data-background-size="cover" data-background-position="center">
+</section>
+<section data-transition="fade">
+<img data-src="./assets/07_Restaurants%20popularity.jpg" />
+</section data-transition="fade">
+<section data-transition="fade">
+<img data-src="./assets/09_Anna_Scatter.jpg" />
+</section data-transition="fade">
+<section data-transition="fade">
+<img data-src="./assets/010_Anna_MAP_01.jpg" />
+</section data-transition="fade">
+<section data-transition="fade">
+<img data-src="./assets/010_Anna_MAP_02.jpg" />
+</section data-transition="fade">
+<section data-transition="fade">
+<img data-src="./assets/010_Anna_MAP_03.jpg" />
+</section data-transition="fade">
+<section data-transition="slide-in fade-out">
+<img data-src="./assets/03A_Cuisines%20tree%20map.jpg" />
+</section>
+<section data-transition="fade">
+<img data-src="./assets/010_Anna_Cuisines%20tree%20map.jpg" />
+</section data-transition="fade">
+</section>
+<section class="slide level1">
+
+<section>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;">Neighbourhood</th>
+<th style="text-align: center;">Greek Restaurants as % of the Total
+Number of Restaurants</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Tempelhof-Schöneberg</td>
+<td style="text-align: center;">4.52%</td>
+</tr>
+<tr>
+<td style="text-align: center;">Charlottenburg-Wilmersdorf</td>
+<td style="text-align: center;">3.04%</td>
+</tr>
+<tr>
+<td style="text-align: center;">Friedrichshain-Kreuzberg</td>
+<td style="text-align: center;">1.97%</td>
+</tr>
+<tr>
+<td style="text-align: center;">Mitte</td>
+<td style="text-align: center;">0.94%</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section data-transition="fade-in zoom-out">
+<img data-src="./assets/010_Anna_MAP_04.jpg" />
+</section>
+</section>
+<section class="slide level1">
+
+<section data-transition="fade" data-background="assets/011_heatmap_02.JPG" data-background-size="cover" data-background-position="center">
+</section>
+<section data-transition="fade" data-background="assets/011_heatmap_03.JPG" data-background-size="cover" data-background-position="center">
+</section>
+<section data-transition="fade" data-background="assets/011_heatmap_04.JPG" data-background-size="cover" data-background-position="center">
+</section>
+<section data-background="assets/woman.jpg" data-background-size="cover" data-background-position="center">
+</section>
+<section data-background="assets/background_v2.jpg" data-background-size="cover" data-background-position="center">
+<h2 style="margin-top: 0; color: black; padding-top: 10px; text-align: top;">
+`
+</h2>
+<p><strong>Thank You!</strong></p>
+<p><em>Data Sources:</em></p>
+<p><img data-src="assets/images.png"
+style="width: 150px; margin: 20px;" /> <img
+data-src="assets/Openstreetmap_logo.svg.png"
+style="width: 150px; margin: 10px;" /> <img
+data-src="assets/Yelp_Logo.svg.png"
+style="width: 150px; margin: 20px;" /></p>
+</section>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: true,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: true,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
