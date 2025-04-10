@@ -2,7 +2,6 @@
 **Author:** [Piotr Kalbarczyk]  
 **Date:** [19-12-2025]  
 
-
 ## 📋 Project Description
 My final project for the Data Analytics Bootcamp, where I showcase the skills and tools I have acquired, including data collection, cleaning, analysis, and visualization.
 
@@ -15,6 +14,7 @@ The primary goals of this analysis are:
 - Restaurant Density Analysis: Identifying areas with high restaurant density and hotspots for new ventures.
 - Culinary Preferences: Analyzing the popularity of different cuisines and their correlation with demographics.
 
+![Berlin](./04_Reveal_js/assets/background.jpg)
 
 ## Objective
 The objective of this project is to apply data analytics and geospatial analysis to support location-based business decisions, specifically for the restaurant industry in Berlin. Hopefully I will demonstrate how data-driven approaches can optimize decision-making processes in urban environments.
