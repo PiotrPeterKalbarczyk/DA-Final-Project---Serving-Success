@@ -1,6 +1,4 @@
 # Serving Success: A Data-Driven Approach to Identifying Prime Restaurant Locations in Berlin
-**Author:** [Piotr Kalbarczyk]  
-**Date:** [19-12-2025]  
 
 ## 📋 Project Description
 My final project for the Data Analytics Bootcamp, where I showcase the skills and tools I have acquired, including data collection, cleaning, analysis, and visualization.
